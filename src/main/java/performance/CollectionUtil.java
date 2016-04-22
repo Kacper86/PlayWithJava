@@ -7,7 +7,9 @@ import java.util.List;
 
 public class CollectionUtil {
 
-	public static void removeItemFromCollectionByUsingIteratorRemoveMethod(Collection<String> collection, String elementToBeRemoved) {
+	public static void removeItemFromCollectionByUsingIteratorRemoveMethod(
+			Collection<String> collection, String elementToBeRemoved
+	) {
 
 		Iterator iterator = collection.iterator();
 
@@ -20,7 +22,9 @@ public class CollectionUtil {
 		}
 	}
 
-	public static Collection<String> removeItemFromCollectionByReturningNewList(Collection<String> collection, String elementToBeRemoved) {
+	public static List<String> removeItemFromCollectionByReturningNewList(
+			Collection<String> collection, String elementToBeRemoved
+	) {
 
 		Iterator iterator = collection.iterator();
 
